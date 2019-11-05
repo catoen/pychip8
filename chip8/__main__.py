@@ -3,8 +3,8 @@ import numpy as np
 
 import pygame as pg
 
-from cpu import CPU
-from screen import Screen
+from .cpu import CPU
+from .screen import Screen
 
 KEY_MAP = {
     pg.K_0: 0x0,
