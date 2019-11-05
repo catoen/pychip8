@@ -1,7 +1,7 @@
 import numpy as np
 import random
 
-from screen import Screen
+from .screen import Screen
 
 class CPU():
     def  __init__(self, screen: Screen) -> None:

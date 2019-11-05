@@ -3,8 +3,12 @@
 A CHIP-8 emulator written in Python using pygame
 
 ## Try it out
+
 ```
-python chip8/main.py --rom-path roms/Breakout\ \[Carmelo\ Cortez\,\ 1979\].ch8
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+python -m chip8 --rom-path "roms/Breakout [Carmelo Cortez, 1979].ch8"
 ```
 
 ![](https://media.giphy.com/media/QVyjipq9sdU9xPojBP/giphy.gif)
